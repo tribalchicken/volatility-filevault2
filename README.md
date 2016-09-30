@@ -16,7 +16,7 @@ Filevault appears to keep the volume master key in a consistently identifiable r
 
 In a nutshell, the plugin searches through the memory map of kernel space, searching for a string that is aligned on a map boundary and repeated exactly 0x430 bytes later.
 
-Thats all there is too it (The writeup linked above has further information).
+Thats all there is to it (The writeup linked above has further information).
 
 ## Usage
 filevault2.py is a plugin for the Volatility Framework. You can either place the plugin in the plugins directory at `volatility/plugins`, or  alternatively, you can place the plugin in a separate directory and point volatility to it with `--plugins`
